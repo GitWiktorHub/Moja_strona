@@ -30,6 +30,7 @@ main
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    align-content: space-around;
     animation: tlo 15s linear 0s infinite normal;
 }
 main > div
