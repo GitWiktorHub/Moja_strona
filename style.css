@@ -38,6 +38,7 @@ main > div
     height: 200px;
     border: 2px dashed black;
     border-radius: 20px;
+    transition: all 0.1s;
 }
 main > div:hover
 {
