@@ -1,0 +1,62 @@
+html,body
+{
+    margin: 0 auto;
+}
+header
+{
+    height: 150px;
+    width: 100vw;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav
+{
+    height: 100px;
+    width: 100vw;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 2px 2px 1px black;
+}
+main
+{
+    height: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    animation: tlo 15s linear 0s infinite normal;
+}
+main > div
+{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    border-radius: 20px;
+}
+main > div:hover
+{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+@keyframes tlo {
+    0%, 100%
+    {
+        background-color: #f00;
+    }
+    33%
+    {
+        background-color: #0f0;
+    }
+    66%
+    {
+        background-color: #00f;
+    }
+}
