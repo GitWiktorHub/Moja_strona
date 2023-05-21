@@ -20,7 +20,7 @@ nav
     justify-content: space-around;
     align-items: center;
     position: sticky;
-    top: 0px;
+    top: -1px;
     box-shadow: 0 2px 2px 1px black;
 }
 main
@@ -30,6 +30,7 @@ main
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    align-content: space-around;
     animation: tlo 15s linear 0s infinite normal;
 }
 main > div
@@ -38,6 +39,7 @@ main > div
     height: 200px;
     border: 2px dashed black;
     border-radius: 20px;
+    transition: all 0.1s;
 }
 main > div:hover
 {
